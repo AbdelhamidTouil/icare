@@ -1,0 +1,91 @@
+.container {
+	display: grid;
+	grid-template-columns: 550px 600px;
+	margin-top: 70px;
+}
+
+.div2 {
+	display: grid;
+	grid-template-columns: 300px 300px 400px 200px;
+}
+
+.a3 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.a4 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+input {
+	border-radius: 50px;
+	width: 250px;
+	height: 60px;
+	border-color: #93A9D9;
+}
+
+.input3 {
+	width: 550px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.input4 {
+	margin-left: 170px;
+}
+
+.butt {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	background-color: white;
+    color: #6E78F7;
+	width: 25ch;
+	height: 6ch;
+	box-shadow: rgb(190, 183, 183) 5px 5px 5px 5px;
+	border-style: none;
+}
+
+.navbar {
+	width: 50% !important;
+	margin: 0px auto;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+
+.collapse {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	box-shadow: rgb(190, 183, 183) 5px 5px 5px 5px;
+	border-radius: 20px;
+}
+
+li {
+	margin-left: 50px;
+}
+
+p {
+	max-width: 90%;
+	font-size: 3ch;
+    color: #93A9D9;
+}
+
+.div2 {
+	background-color: white;
+	box-shadow: rgb(190, 183, 183) 5px 5px 5px 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+@media(max-width:375px) {
+	
+}

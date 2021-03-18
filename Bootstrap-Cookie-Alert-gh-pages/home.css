@@ -1,0 +1,81 @@
+body {
+	background-image: url(Trace_1624.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 60%;
+}
+
+.icare {
+	position: relative;
+	top: 50px;
+	margin-left: 50px;
+}
+
+.a1 {
+	margin-left: 60px;
+	color: #6E78F7;
+}
+
+.a2 {
+	margin-left: 50px;
+}
+
+.a3 {
+	margin-left: 50px;
+}
+
+.collapse {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	box-shadow: rgb(190, 183, 183) 5px 5px 5px 5px;
+	border-radius: 20px;
+}
+
+li {
+	margin-left: 50px;
+}
+
+.navbar {
+	width: 50% !important;
+	margin: 0px auto;
+}
+
+.parent {
+	display: grid;
+	grid-template-columns: 600px 600px;
+	margin-top: 20px;
+}
+
+.div1 {
+	margin-top: 40px;
+}
+
+.a2 {
+	border-left: 4px solid #6E78F7;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+h6 {
+	margin-left: 10px
+}
+
+img {
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+button {
+	width: 20ch;
+	height: 6ch;
+	background-color: #4C72B4D9;
+	color: whitesmoke;
+	border-style: none;
+}
+
+button:hover {
+	background-color: black;
+	color: rgb(207, 200, 200);
+}

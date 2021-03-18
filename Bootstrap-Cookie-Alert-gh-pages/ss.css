@@ -1,0 +1,83 @@
+.collapse{ display: flex; justify-content: center;
+background-color: white;
+box-shadow:rgb(190, 183, 183) 5px 5px 5px 5px;
+border-radius: 20px;
+}
+
+body{background-image: url(Trace_1624.jpg);
+   
+
+background-repeat: no-repeat; /* Do not repeat the image */
+background-position: 100px  100px;
+
+background-position:right;
+background-size: 70% 200%;
+
+}
+.btn-outline-secondary {
+	background-color:#A3A9E5;
+    color: white;
+    border-style: none;
+    
+ 
+}
+.btn-outline-success{
+    background-color: #A3A9E5;
+    color: white;
+    border-style: none;
+  
+
+}
+
+img{position:relative; width:550px; height: 500px; margin-left: 650px; margin-top:-400px;}
+
+
+#active{color:#6E78F7 ;}
+p{max-width: 40%;}
+
+.navbar{
+    width:50% !important;
+    margin:0px auto;
+    left:0;
+    right:0;
+    padding:0;
+}
+.Icare{position: relative; top: 50px; margin-left: 50px;}
+.d1{background-color:  #A3A9E5; }
+.d2 h1{color: #6E78F7; font-size: 50px;}
+.parent{display: grid;
+grid-template-columns: 5px 1000px;
+grid-gap: 5px; margin-top: 150px; margin-left: 50px; margin-bottom: 100px;}
+ .butt{margin-left: 60px;}
+
+li{margin-left: 50px;}
+
+
+@media(max-width:375px) {
+
+   p{max-width: 25%;} 
+   img{position:relative; width:250px; height: 250px;margin-left: -1px; margin-top: 20px;}
+
+
+
+
+
+
+
+   body{
+   
+
+    
+    background-position: 100px  100px;
+    
+    background-position:right;
+    background-size: 60% 100%;
+    
+    }
+
+
+
+
+
+    
+}
